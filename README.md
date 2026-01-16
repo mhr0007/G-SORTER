@@ -13,6 +13,16 @@ Chrome extension for filtering Facebook Marketplace listings. Finds new sellers 
 
 ## Install
 
+### From Releases (easy)
+
+1. Download latest `g-sorter-vX.X.X.zip` from [Releases](../../releases)
+2. Unzip
+3. Open `chrome://extensions/`
+4. Enable Developer mode
+5. Load unpacked → select `chrome-mv3` folder
+
+### From Source
+
 1. Clone repo
 2. `bun install`
 3. `bun run build`
@@ -26,12 +36,6 @@ Chrome extension for filtering Facebook Marketplace listings. Finds new sellers 
 2. Click extension icon
 3. Click "Start Scan"
 4. Scroll down, load more listings, scan again — duplicates are skipped
-
-## Tech
-
-- WXT (extension framework)
-- Vue 3
-- TypeScript
 
 ## Config
 
